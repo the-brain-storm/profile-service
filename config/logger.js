@@ -19,7 +19,7 @@ const logger = createLogger({
             level: 'info',
             options: { useUnifiedTopology: true },
             format: format.combine(format.timestamp(), format.json()),
-            collection: 'log'
+            collection: 'profilelogs'
         })
     ]
 })

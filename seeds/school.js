@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 const School = require('../models/school')
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/profileMS';
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/profileService';
 
-mongoose.connect( secret.dbUrl ,{
+mongoose.connect( dbUrl ,{
       useNewUrlParser: true,
       useCreateIndex: true,
       useUnifiedTopology: true,
