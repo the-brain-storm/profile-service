@@ -1,0 +1,27 @@
+{
+  "name": "profile-services",
+  "version": "1.0.0",
+  "description": "Profile MicroService",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVNV2201/profile-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVNV2201/profile-services/issues"
+  },
+  "homepage": "https://github.com/AVNV2201/profile-services#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  }
+}
