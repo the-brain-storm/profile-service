@@ -1,22 +1,22 @@
 {
-  "name": "profile-services",
+  "name": "profile-service",
   "version": "1.0.0",
   "description": "Profile MicroService",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AVNV2201/profile-services.git"
+    "url": "git+https://github.com/the-brain-storm/profile-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AVNV2201/profile-services/issues"
+    "url": "https://github.com/the-brain-storm/profile-service/issues"
   },
-  "homepage": "https://github.com/AVNV2201/profile-services#readme",
+  "homepage": "https://github.com/the-brain-storm/profile-service#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
