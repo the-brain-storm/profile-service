@@ -16,8 +16,6 @@ callbacks.getStudentList = (req, res) => {
 
 callbacks.addStudent = ( req, res ) => {
       const student = new Student( req.body );
-      callbacks.addStudent = (req, res) => {
-      const student = new Student(req.body);
       student.save()
             .then(s => {
                   logger.log('info', `successfully added students in DB`);
